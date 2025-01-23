@@ -17,7 +17,7 @@ int main(void)
 	name[10] = '\0';
 	printf("%s \n", name);
 
-	//char scanfs_string[50];
+	//char scanfs_string[50]; 
 	//printf("scanfs_string 문자열을 입력하세요 : ");
 	//scanf_s("%s", scanfs_string, (unsigned int)sizeof(scanfs_string));
 	//printf("%s \n", scanfs_string);
