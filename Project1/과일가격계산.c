@@ -1,15 +1,15 @@
 #include <stdio.h>
 // 두 가격 중 더 큰 값을 반환하는 함수, 딸기 가격 입력받고 귤 가격을 입력받아서 더 비싼 과일의 가격을 출력
 
-int a(int x, int y)
+int a(int price1, int price2)
 {
-	if (x > y)
+	if (price1 > price2)
 	{
-		return x;
+		return price1;
 	}
-	else if (y > x)
+	else if (price2 > price1)
 	{
-		return y;
+		return price2;
 	}
 	else {
 		return 0;
@@ -18,14 +18,14 @@ int a(int x, int y)
 
 int main(void)
 {
-	int x, y, result;
+	int price1, price2, result;
 	printf("딸기의 가격을 입력하세요 : ");
-	scanf_s("%d", &x);
+	scanf_s("%d", &price1);
 	printf("귤의 가격을 입력하세요 : ");
-	scanf_s("%d", &y);
+	scanf_s("%d", &price2);
 	
-	result = a(x, y);
-	printf("%d", result);
+	result = a(price1, price2);
+	printf("더 비싼 과일의 가격 : %d", result);
 
 	return 0;
 }

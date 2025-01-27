@@ -49,6 +49,12 @@
     <Filter Include="소스 파일\day12">
       <UniqueIdentifier>{b3f40960-8766-4f81-b76c-38f264b10d5f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day13">
+      <UniqueIdentifier>{d37f38c7-b565-4097-94c6-8aff8ddd2559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\day14">
+      <UniqueIdentifier>{4adc7dc3-1a0f-489c-a8c1-ce7b8b01dd74}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -144,9 +150,6 @@
     <ClCompile Include="while문제.c">
       <Filter>소스 파일\day9</Filter>
     </ClCompile>
-    <ClCompile Include="dowhile.c">
-      <Filter>소스 파일\day9</Filter>
-    </ClCompile>
     <ClCompile Include="for문.c">
       <Filter>소스 파일\day9</Filter>
     </ClCompile>
@@ -197,6 +200,36 @@
     </ClCompile>
     <ClCompile Include="배열포인터.c">
       <Filter>소스 파일\day12</Filter>
+    </ClCompile>
+    <ClCompile Include="dowhile.c">
+      <Filter>소스 파일\day9</Filter>
+    </ClCompile>
+    <ClCompile Include="곱셈프로그램.c">
+      <Filter>소스 파일\day13</Filter>
+    </ClCompile>
+    <ClCompile Include="과일가격계산.c">
+      <Filter>소스 파일\day13</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열과포인터.c">
+      <Filter>소스 파일\day13</Filter>
+    </ClCompile>
+    <ClCompile Include="인사하는프로그램.c">
+      <Filter>소스 파일\day13</Filter>
+    </ClCompile>
+    <ClCompile Include="함수.c">
+      <Filter>소스 파일\day13</Filter>
+    </ClCompile>
+    <ClCompile Include="지역변수전역변수.c">
+      <Filter>소스 파일\day14</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터와함수의관계.c">
+      <Filter>소스 파일\day14</Filter>
+    </ClCompile>
+    <ClCompile Include="이중포인터.c">
+      <Filter>소스 파일\day14</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터실전문제.c">
+      <Filter>소스 파일\day14</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
