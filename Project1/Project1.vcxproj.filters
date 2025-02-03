@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\day14">
       <UniqueIdentifier>{4adc7dc3-1a0f-489c-a8c1-ce7b8b01dd74}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day15">
+      <UniqueIdentifier>{380c7c41-c689-45c4-94fe-194664040ac7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -230,6 +233,15 @@
     </ClCompile>
     <ClCompile Include="포인터실전문제.c">
       <Filter>소스 파일\day14</Filter>
+    </ClCompile>
+    <ClCompile Include="메모리의동적할당.c">
+      <Filter>소스 파일\day15</Filter>
+    </ClCompile>
+    <ClCompile Include="구조체.c">
+      <Filter>소스 파일\day15</Filter>
+    </ClCompile>
+    <ClCompile Include="구조체문제.c">
+      <Filter>소스 파일\day15</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
